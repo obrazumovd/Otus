@@ -14,6 +14,13 @@
 		2C0A35EA284A5AAC00AFAB04 /* OtusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A35E9284A5AAC00AFAB04 /* OtusTests.swift */; };
 		2C0A35F4284A5AAC00AFAB04 /* OtusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A35F3284A5AAC00AFAB04 /* OtusUITests.swift */; };
 		2C0A35F6284A5AAC00AFAB04 /* OtusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A35F5284A5AAC00AFAB04 /* OtusUITestsLaunchTests.swift */; };
+		2C0A3604284A5ADD00AFAB04 /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A3603284A5ADD00AFAB04 /* MyListView.swift */; };
+		2C0A3606284A5B2500AFAB04 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A3605284A5B2500AFAB04 /* Extensions.swift */; };
+		2C0A360A284A5BDC00AFAB04 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A3609284A5BDC00AFAB04 /* ThirdView.swift */; };
+		2C0A360C284A5C2F00AFAB04 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A360B284A5C2F00AFAB04 /* MyTabView.swift */; };
+		2C0A360E284A5C4B00AFAB04 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A360D284A5C4B00AFAB04 /* MainView.swift */; };
+		2C0A3610284A5F7600AFAB04 /* MyModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A360F284A5F7600AFAB04 /* MyModalView.swift */; };
+		2C0A3612284A66F700AFAB04 /* MyUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A3611284A66F700AFAB04 /* MyUIKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		2C0A35EF284A5AAC00AFAB04 /* OtusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0A35F3284A5AAC00AFAB04 /* OtusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtusUITests.swift; sourceTree = "<group>"; };
 		2C0A35F5284A5AAC00AFAB04 /* OtusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C0A3603284A5ADD00AFAB04 /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
+		2C0A3605284A5B2500AFAB04 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2C0A3609284A5BDC00AFAB04 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		2C0A360B284A5C2F00AFAB04 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		2C0A360D284A5C4B00AFAB04 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2C0A360F284A5F7600AFAB04 /* MyModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModalView.swift; sourceTree = "<group>"; };
+		2C0A3611284A66F700AFAB04 /* MyUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,8 @@
 			children = (
 				2C0A35D8284A5AAA00AFAB04 /* OtusApp.swift */,
 				2C0A35DA284A5AAA00AFAB04 /* ContentView.swift */,
+				2C0A3605284A5B2500AFAB04 /* Extensions.swift */,
+				2C0A3602284A5AD000AFAB04 /* Views */,
 				2C0A35DC284A5AAC00AFAB04 /* Assets.xcassets */,
 				2C0A35DE284A5AAC00AFAB04 /* Preview Content */,
 			);
@@ -125,6 +141,19 @@
 				2C0A35F5284A5AAC00AFAB04 /* OtusUITestsLaunchTests.swift */,
 			);
 			path = OtusUITests;
+			sourceTree = "<group>";
+		};
+		2C0A3602284A5AD000AFAB04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C0A360B284A5C2F00AFAB04 /* MyTabView.swift */,
+				2C0A360D284A5C4B00AFAB04 /* MainView.swift */,
+				2C0A3603284A5ADD00AFAB04 /* MyListView.swift */,
+				2C0A3609284A5BDC00AFAB04 /* ThirdView.swift */,
+				2C0A360F284A5F7600AFAB04 /* MyModalView.swift */,
+				2C0A3611284A66F700AFAB04 /* MyUIKit.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0A3612284A66F700AFAB04 /* MyUIKit.swift in Sources */,
 				2C0A35DB284A5AAA00AFAB04 /* ContentView.swift in Sources */,
+				2C0A360E284A5C4B00AFAB04 /* MainView.swift in Sources */,
+				2C0A3610284A5F7600AFAB04 /* MyModalView.swift in Sources */,
+				2C0A360A284A5BDC00AFAB04 /* ThirdView.swift in Sources */,
 				2C0A35D9284A5AAA00AFAB04 /* OtusApp.swift in Sources */,
+				2C0A3604284A5ADD00AFAB04 /* MyListView.swift in Sources */,
+				2C0A360C284A5C2F00AFAB04 /* MyTabView.swift in Sources */,
+				2C0A3606284A5B2500AFAB04 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
